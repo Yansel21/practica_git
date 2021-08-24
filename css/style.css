@@ -1,0 +1,42 @@
+h2
+{
+  color: green;
+}
+h1
+{
+  color: white;
+  background-color:  black;
+}
+.precio
+{
+  color: red;
+}
+#productos
+{
+  background-color:  yellow;
+}
+th
+{
+  background-color:  yellow;
+}
+
+body{
+    background-color:  white;
+}
+header{
+    text-align: left;
+    padding: 10px 10px 20px 0;
+
+    margin-left: 0px;
+    font-weight: 300;
+}
+@media screen and (max-width: 992px){
+  body{
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px){
+  body{
+    background-color: orange;
+  }
+}

@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html lang ="en">
-<head>
+ <head>
 
     <meta charset="UTF-8">
     <title>TiendaWebBasico</title>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+ 
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+ integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 </head>
 <body>
+
+  <div class="container">
+
+  <nav class="text-center">
     <h1><a id ="arriba">APPLE COLOMBIA</a></h1>
-    <nav><img src="img/logo.gif " alt ="gift1"  >
-        <nav class="menu">
-            <ul>
-              <li><a href="https://www.apple.com/co/">Web apple   </a></li>
-              <li><a href="https://tiendasishop.com/co/?gclid=CjwKCAjwjdOIBhA_EiwAHz8xm83-oLI0gFkfp5WC9mcS6Jd5zAFNw5XiXfSD0LcsdK21ILqo8SCtdhoCe5oQAvD_BwE">Ishope</a></li>
-              <li><a href="https://locate.apple.com/co/es/">Tiendas apple</a></li>
-              <li><a href="https://support.apple.com/es-co">Historial de compras</a></li>
-            </ul>
+  </nav>
+    
+    <nav >
+      <header>
+      
+        <a href="https://www.apple.com/co/" > Web apple </a>
+        <a href="https://tiendasishop.com/co/?gclid=CjwKCAjwjdOIBhA_EiwAHz8xm83-oLI0gFkfp5WC9mcS6Jd5zAFNw5XiXfSD0LcsdK21ILqo8SCtdhoCe5oQAvD_BwE">Ishope</a>
+        <a href="https://locate.apple.com/co/es/">Tiendas apple</a>
+        <a href="https://support.apple.com/es-co">Historial de compras</a>
+        <a href="registrar_producto.html">REGISTRAR PRODUCTOS</a>
+      
+    </header>
+        <nav class="text-center">
+          <img src="img/logo.gif " class="img-fluid" alt =""  >
+
           </nav>
      </nav>
-     
+
 <section>
-   <h2>LISTADO DE PRODUCTOS</h2>
+   <h2 class="text-center">LISTADO DE PRODUCTOS</h2>
 
-
-    <img src="img/productos.gif " alt = "gift2" >
+<div class= "text-center">
+    <img  src="img/productos.gif " class="img-fluid" alt = "" >
+  </div>
 
     
     <table class="Productos">
   
    
-    <tr>
-        <th>Ipad Pro </th>
-        <th>iPhone 12 pro</th>
-        <th>iPhone 12 mini</th>
+    <tr id="productos">
+        <th >Ipad Pro </th>
+        <th >iPhone 12 pro</th>
+        <th >IPhone 12 mini</th>
+    </tr>
+
+    <tr >
+      <td><img src="img/ipadpro.jpg " class="img-fluid" width="400" height="400" alt =""></td>
+      <td><img src="img/iphone12pro.jpg "  class="img-fluid" width="400" height="400" alt =""></td>
+      <td><img src="img/iphonepromini.jpg "  class="img-fluid" width="400" height="400" alt =""></td>
     </tr>
 
     <tr>
-      <td><img src="img/ipadpro.jpg " width="400" height="400" alt =""></td>
-      <td>><img src="img/iphone12pro.jpg " width="400" height="400" alt =""></td>
-      <td><img src="img/iphonepromini.jpg " width="400" height="400" alt =""></td>
-    </tr>
-
-    <tr>
-        <td><img src="img/ipadpro2.jpg " width="400" height="400" alt ="" ></td>
-        <td><img src="img/iphone12pro2.gif " width="400" height="300" alt ="" ></td>
-        <td><img src="img/iphonepromini2.jpg " width="400" height="300" alt ="" ></td>
+        <td><img src="img/ipadpro2.jpg "  class="img-fluid" width="400" height="400" alt ="" ></td>
+        <td><img src="img/iphone12pro2.gif "  class="img-fluid" width="400" height="300" alt ="" ></td>
+        <td><img src="img/iphonepromini2.jpg "  class="img-fluid" width="400" height="300" alt ="" ></td>
       </tr>
 
       <tr>
-        <td><img src="img/ipadpro3.jpg " width="400" height="300" alt ="" ></td>
-        <td><img src="img/iphone12pro3.gif " width="400" height="200"  alt =""></td>
-        <td><img src="img/iphonepromini3.jpg " width="400" height="300" alt ="" ></td>
+        <td><img src="img/ipadpro3.jpg "  class="img-fluid" width="400" height="300" alt ="" ></td>
+        <td><img src="img/iphone12pro3.gif "  class="img-fluid" width="400" height="200"  alt =""></td>
+        <td><img src="img/iphonepromini3.jpg "  class="img-fluid" width="400" height="300" alt ="" ></td>
       </tr>
     </table>
    </section>
     
 
-      <section>
+      <section class="text-center" >
         <h2>ESPECIFICACIONES</h2>
       </section>
       
@@ -68,35 +87,44 @@
     </tr>
 
     <tr>
-        <td>
-            Procesador:Apple M1 CPU y GPU de ocho núcleos  <br>
-            Memoria: RAM	8 / 16 GB<br>
-            Almacenamiento:	128 / 256 / 512 GB 1 / 2 TB<br>
-            Cámaras	Principal: 12MP, f/1.8 Gran angular: 10MP<br>
-            Bateria: 28,65 Whr<br>
-            Software:iPadOS 14.5<br>
-            Precio: $ 3.399.000 <br>
+      <td> 
+        <ul>
+          <li> Procesador:Apple M1 CPU y GPU de ocho núcleos </li> 
+          <li>Memoria: RAM	8 / 16 GB</li> 
+          <li> Almacenamiento:	128 / 256 / 512 GB 1 / 2 TB</li> 
+          <li> Cámaras	Principal: 12MP, f/1.8 Gran angular: 10MP</li> 
+          <li> Bateria: 28,65 Whr</li> 
+          <li>  Software:iPadOS 14.5</li> 
+          <li class="precio"> Precio: $ 3.399.000 </li> 
+       </ul>
 
-        </td>
-        <td>Pantalla: 6,7" pulgadas OLED.<br>
-            Resolución: 2.778 x 1.184 píxeles FullHD+<br>
-            Densidad de pixeles: 458 ppp.<br>
-            Procesador: Apple A14 Bionic.<br>
-            Sistema Operativo: iOS 14.<br>
-            Memoria Interna: 128 GB, 256 GB.<br>
-            Precio: $ 4.599.900 <br>
+      </td>
+       <td>
+        <ul>
+          <li>  Pantalla: 6,7" pulgadas OLED.</li> 
+            <li>   Resolución: 2.778 x 1.184 píxeles FullHD+</li> 
+              <li>    Densidad de pixeles: 458 ppp.</li> 
+                <li>    Procesador: Apple A14 Bionic.</li> 
+                  <li>   Sistema Operativo: iOS 14.</li> 
+                    <li>   Memoria Interna: 128 GB, 256 GB.</li> 
+                      <li class="precio">   Precio: $ 4.599.900 </li> 
+        </ul>
 
+      </td>
+       <td>
+        <ul>
+          <li>  Delgado (7.4mm)</li> 
+            <li>  Conectividad 5G</li> 
+              <li>  Resistente al agua (IP68)</li> 
+                <li>  Parlantes stereo</li> 
+                  <li>  Sonido Dolby Atmos</li> 
+                    <li>  Carga inalámbrica</li> 
+                      <li>  Carga rápida (20W)</li> 
+                        <li>  Pantalla Gorilla Glass</li> 
+                          <li class="precio"> Precio: $ 3.729.000 </li> 
+         </ul>
         </td>
-        <td> Delgado (7.4mm)<br>
-            Conectividad 5G<br>
-            Resistente al agua (IP68)<br>
-            Parlantes stereo<br>
-            Sonido Dolby Atmos<br>
-            Carga inalámbrica<br>
-            Carga rápida (20W)<br>
-            Pantalla Gorilla Glass<br>
-            Precio: $ 3.729.000 <br>
-        </td>
+
     </tr>
 
   </table>
@@ -109,7 +137,20 @@
   ventas@appleColombia.com</footer>
 
   <a href="#arriba">Inicio</a>
+ 
   
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+
+  integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+
+
 </body>
 
 
